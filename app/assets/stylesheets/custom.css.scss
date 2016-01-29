@@ -65,11 +65,10 @@ p {
 	letter-spacing: -1px;
 	padding-top: 9px;
 	font-weight: bold;
-}
-
-#logo:hover {
-	color: #FFF;
-	text-decoration: none;
+	&:hover {
+		color: #FFF;
+		text-decoration: none;
+	}
 }
 
 /* footer */
