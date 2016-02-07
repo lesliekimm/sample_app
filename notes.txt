@@ -1,0 +1,7 @@
+rails new app_name
+	creates new app with tons of files
+
+edit gemfile with gems needed by our app
+run bundle install --without production
+	we are skipping production gems to use SQLite for dev & testing
+	heroku uses pg gem to use PostgresSQL in dev
